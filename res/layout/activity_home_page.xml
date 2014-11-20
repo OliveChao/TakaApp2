@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".SplashScreen">
+
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/pin_info"
+			android:id="@+id/tvHomePagePinInfo"
+			android:textColor="@android:color/white"
+			android:textSize="20sp"
+			android:layout_alignParentTop="true"
+			android:layout_alignLeft="@+id/etHomePagePin"
+			android:layout_marginTop="80dp"
+			android:layout_alignRight="@+id/etHomePagePin"/>
+
+	<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			android:padding="10sp"
+			android:id="@+id/etHomePageUserName"
+			android:textSize="20sp"
+			android:background="@android:color/white"
+			android:hint="@string/user_name"
+			android:layout_marginTop="190dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:gravity="center"/>
+
+	<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"
+			android:padding="10sp"
+			android:hint="@string/hint_pin"
+			android:id="@+id/etHomePagePin"
+			android:gravity="center"
+			android:inputType="numberPassword"
+			android:textSize="20sp"
+			android:layout_marginTop="270dp"
+			android:layout_marginRight="40dp"
+			android:layout_marginLeft="40dp"/>
+
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="10sp"
+			android:background="@drawable/button_style"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="123dp"
+			android:id="@+id/btnHomePageOK"
+			android:text="@string/btn_ok"
+			android:textColor="@android:color/white"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:textSize="20sp"/>
+
+</RelativeLayout>

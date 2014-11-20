@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TakaApp2</string>
+	<string name="pin_info">Set your 4-digit PIN code and User Name to be required at app_start. Then press OK</string>
+	<string name="user_name">User Name</string>
+	<string name="hint_pin">****</string>
+	<string name="btn_ok">OK</string>
+	<string name="recycler">Recycler</string>
+	<string name="collector">Collector</string>
+	<string name="change_pin">Change PIN</string>
+	<string name="update_app">Update App</string>
+	<string name="change_language">Change Language</string>
+	<string name="quantity">Quantity</string>
+	<string name="transaction_history">Transaction History</string>
+	<string name="kg">KG</string>
+	<string name="grams">grams</string>
+	<string name="tonnes">tonnes</string>
+</resources>
