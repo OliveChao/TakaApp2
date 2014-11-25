@@ -50,11 +50,13 @@ public class Specialization extends ActionBarActivity implements AdapterView.OnI
         //switch case
         switch (position){
             case 0:
-                startActivity(new Intent(getApplicationContext(),InputPage.class));
+                startActivity(new Intent(getApplicationContext(),ServicePage.class));
                 break;
             case 1:
-                startActivity(new Intent(getApplicationContext(),InputPage.class));
+                startActivity(new Intent(getApplicationContext(),ServicePage.class));
                 break;
+			default:
+				break;
         }
     }
 }
