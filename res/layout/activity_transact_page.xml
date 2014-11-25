@@ -12,7 +12,8 @@
 			android:textColor="@android:color/white"
 			android:layout_marginTop="130dp"
 			android:layout_marginLeft="50dp"
-			android:layout_marginRight="50dp"/>
+			android:layout_marginRight="50dp"
+			android:id="@+id/textView1QuantityPage"/>
 
 	<TextView
 			android:layout_width="fill_parent"
@@ -22,7 +23,8 @@
 			android:text="@string/info2"
 			android:layout_marginTop="178dp"
 			android:layout_marginLeft="50dp"
-			android:layout_marginRight="50dp"/>
+			android:layout_marginRight="50dp"
+			android:id="@+id/textView2QuantityPage"/>
 
 	<TextView
 			android:layout_width="fill_parent"
@@ -32,7 +34,8 @@
 			android:text="@string/info3"
 			android:layout_marginTop="200dp"
 			android:layout_marginLeft="50dp"
-			android:layout_marginRight="50dp"/>
+			android:layout_marginRight="50dp"
+			android:id="@+id/textView3QuantityPage"/>
 
 	<EditText
 			android:layout_width="fill_parent"
@@ -42,12 +45,32 @@
 			android:inputType="number"
 			android:background="@android:color/white"
 			android:layout_marginTop="250dp"
-			android:layout_marginRight="50dp"
-			android:layout_marginLeft="50dp"/>
+			android:layout_marginLeft="50dp"
+			android:layout_marginRight="180dp"
+			android:gravity="left|right"/>
 
 	<Spinner
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
+			android:layout_height="wrap_content"
+			android:entries="@array/quantity_array"
+			android:id="@+id/spinnerQuantities"
+			android:layout_alignTop="@+id/etQuantityPage"
+			android:layout_alignLeft="@+id/etQuantityPage"
+			android:layout_marginRight="50dp"
+			android:layout_marginLeft="150dp"
+			android:gravity="bottom|left|right|top"
+			/>
+
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnQuantityPageOk"
+			android:text="@string/btn_ok"
+			android:layout_marginTop="300dp"
+			android:layout_marginRight="50dp"
+			android:layout_marginLeft="50dp"
+			android:padding="10dp"
+			android:background="@drawable/button_style"/>
 
 	<TextView
 			android:layout_width="fill_parent"
@@ -55,8 +78,9 @@
 			android:text="@string/amount"
 			android:textSize="18sp"
 			android:textColor="@android:color/white"
-			android:layout_marginTop="300dp"
+			android:layout_marginTop="350dp"
 			android:layout_marginRight="50dp"
-			android:layout_marginLeft="50dp"/>
+			android:layout_marginLeft="50dp"
+			android:id="@+id/tvQuantityAmount"/>
 
 </RelativeLayout>
