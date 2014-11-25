@@ -23,7 +23,9 @@
 	<string name="info2">2.Pick weight kg,g or tonnes</string>
 	<string name="info3">3.Click ok</string>
 	<string name="amount">Amount expected to pay/get paid</string>
-	<string name="kg">KG</string>
-	<string name="grams">grams</string>
-	<string name="tonnes">tonnes</string>
+	<string-array name="quantity_array">
+		<item>kg</item>
+		<item>grams</item>
+		<item>tonnes</item>
+	</string-array>
 </resources>
