@@ -40,7 +40,7 @@ public class HomePage extends ActionBarActivity implements View.OnClickListener 
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnHomePageOK:
-                startActivity(new Intent(getApplicationContext(),ServiceScreen.class));
+                startActivity(new Intent(getApplicationContext(),Specialization.class));
                 break;
         }
 
