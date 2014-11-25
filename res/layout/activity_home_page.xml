@@ -2,7 +2,8 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context=".SplashScreen">
+                tools:context=".SplashScreen"
+				android:background="@color/dark_green">
 
 	<TextView
 			android:layout_width="wrap_content"
@@ -54,7 +55,7 @@
 			android:layout_marginBottom="123dp"
 			android:id="@+id/btnHomePageOK"
 			android:text="@string/btn_ok"
-			android:textColor="@android:color/white"
+			android:textColor="@color/white"
 			android:layout_marginLeft="40dp"
 			android:layout_marginRight="40dp"
 			android:textSize="20sp"/>
