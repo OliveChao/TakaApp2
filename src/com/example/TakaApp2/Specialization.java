@@ -15,7 +15,7 @@ import java.util.Arrays;
  * @author OLive Chao Thu,Nov 20th 2014
  */
 
-public class ServiceScreen extends ActionBarActivity implements AdapterView.OnItemClickListener {
+public class Specialization extends ActionBarActivity implements AdapterView.OnItemClickListener {
     /**
      * Called when the activity is first created.
      * Declaration of variables
@@ -27,7 +27,7 @@ public class ServiceScreen extends ActionBarActivity implements AdapterView.OnIt
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service_page);
+        setContentView(R.layout.activity_specialization);
 
         //Initialization of variables
         //find listView by id

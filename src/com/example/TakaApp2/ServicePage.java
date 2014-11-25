@@ -14,7 +14,7 @@ import java.util.Arrays;
 /**
  * Created by Olive Chao on 11/20/14.
  */
-public class InputPage extends ActionBarActivity implements AdapterView.OnItemClickListener {
+public class ServicePage extends ActionBarActivity implements AdapterView.OnItemClickListener {
     //Declaration of variables
     private ListView lvInputPage;
     private ArrayAdapter<String> stringArrayAdapter;
@@ -23,7 +23,7 @@ public class InputPage extends ActionBarActivity implements AdapterView.OnItemCl
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_input_page);
+        setContentView(R.layout.activity_service_page);
 
         //Initialization of variables
         //find list view by id
